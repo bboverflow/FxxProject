@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/fxx-common/fxx-common.iml" filepath="$PROJECT_DIR$/fxx-common/fxx-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fxx-f2/fxx-f2.iml" filepath="$PROJECT_DIR$/fxx-f2/fxx-f2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fxx-f2/fxx-f2-dao/fxx-f2-dao.iml" filepath="$PROJECT_DIR$/fxx-f2/fxx-f2-dao/fxx-f2-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fxx-f2/fxx-f2-interface/fxx-f2-interface.iml" filepath="$PROJECT_DIR$/fxx-f2/fxx-f2-interface/fxx-f2-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fxx-f2/fxx-f2-pojo/fxx-f2-pojo.iml" filepath="$PROJECT_DIR$/fxx-f2/fxx-f2-pojo/fxx-f2-pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fxx-f2/fxx-f2-service/fxx-f2-service.iml" filepath="$PROJECT_DIR$/fxx-f2/fxx-f2-service/fxx-f2-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fxx-f2-web/fxx-f2-web.iml" filepath="$PROJECT_DIR$/fxx-f2-web/fxx-f2-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fxx-parent/fxx-parent.iml" filepath="$PROJECT_DIR$/fxx-parent/fxx-parent.iml" />
+    </modules>
+  </component>
+</project>

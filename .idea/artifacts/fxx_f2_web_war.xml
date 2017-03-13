@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="fxx-f2-web:war">
+    <output-path>$PROJECT_DIR$/fxx-f2-web/target</output-path>
+    <root id="archive" name="fxx-f2-web.war">
+      <element id="artifact" artifact-name="fxx-f2-web:war exploded" />
+    </root>
+  </artifact>
+</component>

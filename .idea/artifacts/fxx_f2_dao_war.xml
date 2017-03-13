@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="fxx-f2-dao:war">
+    <output-path>$PROJECT_DIR$/fxx-f2-dao/target</output-path>
+    <root id="archive" name="fxx-f2-dao-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="fxx-f2-dao:war exploded" />
+    </root>
+  </artifact>
+</component>

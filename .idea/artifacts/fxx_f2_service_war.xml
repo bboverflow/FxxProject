@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="fxx-f2-service:war">
+    <output-path>$PROJECT_DIR$/fxx-f2/fxx-f2-service/target</output-path>
+    <root id="archive" name="fxx-f2-service.war">
+      <element id="artifact" artifact-name="fxx-f2-service:war exploded" />
+    </root>
+  </artifact>
+</component>

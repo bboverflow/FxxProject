@@ -1,0 +1,43 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>cn.trusteye.fxx</groupId>
+        <artifactId>fxx-parent</artifactId>
+        <version>1.0-SNAPSHOT</version>
+        <relativePath>../fxx-parent</relativePath>
+    </parent>
+
+    <artifactId>fxx-f2</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <modules>
+        <module>/fxx-f2-dao</module>
+        <module>/fxx-f2-service</module>
+        <module>/fxx-f2-interface</module>
+        <module>/fxx-f2-pojo</module>
+    </modules>
+    <packaging>pom</packaging>
+
+    <dependencies>
+        <dependency>
+            <groupId>cn.trusteye.fxx</groupId>
+            <artifactId>fxx-common</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.tomcat.maven</groupId>
+                <artifactId>tomcat7-maven-plugin</artifactId>
+                <configuration>
+                    <path>/</path>
+                    <port>8080</port>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>
